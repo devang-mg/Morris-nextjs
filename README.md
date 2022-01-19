@@ -1,34 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Monogram UI - Next.js Edition
 
-## Getting Started
+_The Monogram client boilerplate._
 
-First, run the development server:
+## Setup.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+> `next-ui` is a GitHub template repository. That means you can use this as a template to create new repositories (without all the baggage).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Create a new repository using GitHub (click the + and New Repository
+2. Select `next-ui` as the template to create it from
+3. Type a shortened, lowercase, kebab-case repository name for your new repository. For example, "Sample Company" could be called `sample-co`. Use this everywhere.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Package Settings
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Update _(at least)_ these fields in `package.json`:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- `name` _(e.g. `sample-co`)_
+- `description`
+- `repository`
+- `bugs`
 
-## Learn More
+### Prismic
 
-To learn more about Next.js, take a look at the following resources:
+1. Create a new Prismic repository with the same "`sample-co`" name from above.
+2. Add the repository name/URL to `prismic.config.js` and other applicable files.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Install.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- `cd` to this directory and run `yarn install`
 
-## Deploy on Vercel
+## Develop.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Run `yarn dev`
+2. Visit the dev server at `[localhost:3000](http://localhost:3000)`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Develop.
+
+### HTML
+
+1. Write good HTML
+2. Don't repeat code
+3. Never forget SEO & accessiblity
+
+> You will need advanced knowledge of React and Next.js to find your way around the source. Generally, try to use includes and layouts (templates) wherever possible. While we will improve this documentation over time, for the meantime refer to [Next.js's documentation](https://nextjs.org/docs).
+
+### CSS
+
+1. Edit `tailwind.config.js` for variables
+2. Use [TailwindCSS](https://tailwindcss.com/docs) for as many styles as possible
+3. Write custom styles in `global.scss`, preferably using the `[@layer](https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer)` syntax
+
+## Deploy & Host on Vercel
+
+Import project in [Vercel](https://vercel.com/new).
+
+1. Connect your GitHub account to Vercel
+2. Select the GitHub repo
+3. Deploy!
