@@ -1,19 +1,37 @@
 {
-  "name": "next-ui",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.0.8",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "eslint": "8.7.0",
-    "eslint-config-next": "12.0.8"
-  }
+	"name": "next-ui",
+	"private": true,
+	"contributors": [
+		{
+			"name": "Liam Davis",
+			"email": "liam@monogram.io"
+		}
+	],
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"postbuild": "next-sitemap --config next-sitemap.config.js",
+		"export": "cross-env IS_EXPORT=true yarn build && cross-env IS_EXPORT=true next export",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"next": "12.0.8",
+		"next-seo": "^4.28.1",
+		"preact": "10.6.4",
+		"react": "17.0.2",
+		"react-dom": "17.0.2"
+	},
+	"devDependencies": {
+		"@types/react": "^17.0.38",
+		"autoprefixer": "^10.4.2",
+		"cross-env": "^7.0.3",
+		"eslint": "8.7.0",
+		"eslint-config-next": "12.0.8",
+		"next-sitemap": "^1.9.12",
+		"postcss": "^8.4.5",
+		"sass": "^1.49.0",
+		"tailwindcss": "^3.0.15",
+		"typescript": "^4.5.4"
+	}
 }
