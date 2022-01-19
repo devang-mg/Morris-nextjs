@@ -4,7 +4,7 @@ _The Monogram client boilerplate._
 
 ## Setup.
 
-> `next-ui` is a GitHub template repository. That means you can use this as a template to create new repositories (without all the baggage).
+> `next-ui` is a GitHub template repository. That means you can use this as a template to create new repositories (without losing your baggage).
 
 1. Create a new repository using GitHub (click the + and New Repository
 2. Select `next-ui` as the template to create it from
@@ -18,6 +18,7 @@ Update _(at least)_ these fields in `package.json`:
 - `description`
 - `repository`
 - `bugs`
+- `contributors`
 
 ### Prismic
 
@@ -31,7 +32,7 @@ Update _(at least)_ these fields in `package.json`:
 ## Develop.
 
 1. Run `yarn dev`
-2. Visit the dev server at `[localhost:3000](http://localhost:3000)`
+2. Visit the dev server at [`localhost:3000`](http://localhost:3000)
 
 ## Develop.
 
@@ -41,13 +42,13 @@ Update _(at least)_ these fields in `package.json`:
 2. Don't repeat code
 3. Never forget SEO & accessiblity
 
-> You will need advanced knowledge of React and Next.js to find your way around the source. Generally, try to use includes and layouts (templates) wherever possible. While we will improve this documentation over time, for the meantime refer to [Next.js's documentation](https://nextjs.org/docs).
+> You will need advanced knowledge of React and Next.js to find your way around the source. While we will improve this documentation over time, in the meantime refer to [Next.js's documentation](https://nextjs.org/docs).
 
 ### CSS
 
 1. Edit `tailwind.config.js` for variables
-2. Use [TailwindCSS](https://tailwindcss.com/docs) for as many styles as possible
-3. Write custom styles in `global.scss`, preferably using the `[@layer](https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer)` syntax
+2. Use [Tailwind CSS](https://tailwindcss.com/docs) for as many styles as possible
+3. Write custom styles in `global.scss`, preferably using the [`@layer`](https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer) syntax
 
 ## Deploy & Host on Vercel
 
