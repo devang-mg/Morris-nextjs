@@ -185,7 +185,7 @@
   dependencies:
     "@prismicio/types" "^0.1.22"
 
-"@prismicio/types@^0.1.22", "@prismicio/types@^0.1.23":
+"@prismicio/types@^0.1.22", "@prismicio/types@^0.1.23", "@prismicio/types@^0.1.24":
   version "0.1.24"
   resolved "https://registry.yarnpkg.com/@prismicio/types/-/types-0.1.24.tgz#11c8546eb612e522b1d490c65e25f30af938f2e1"
   integrity sha512-jugSx4sgzux0dCWwlEZSjTo98rryxNlHLkdlBbMHpAFJjjor8Jqt+cN7PSCxPTkUbynHEFIwuNCbJhoLU+gEGA==
