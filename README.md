@@ -6,7 +6,7 @@ _The Monogram client boilerplate._
 
 > `next-ui` is a GitHub template repository. That means you can use this as a template to create new repositories (without losing your baggage).
 
-1. Create a new repository using GitHub (click the + and New Repository
+1. Create a new repository using GitHub (click the + and New Repository)
 2. Select `next-ui` as the template to create it from
 3. Type a shortened, lowercase, kebab-case repository name for your new repository. For example, "Sample Company" could be called `sample-co`. Use this everywhere.
 
