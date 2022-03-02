@@ -34,8 +34,6 @@ Update _(at least)_ these fields in `package.json`:
 1. Run `yarn dev`
 2. Visit the dev server at [`localhost:3000`](http://localhost:3000)
 
-## Develop.
-
 ### HTML
 
 1. Write good HTML
