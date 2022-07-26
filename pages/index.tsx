@@ -10,6 +10,7 @@ import prismicClient from 'prismic.config'
 import { Nav } from '@/components/layout'
 
 import ReactHtmlParser from 'react-html-parser';
+import Link from 'next/link'
 
 const Home = ({ document, contactDocument }) => {
 	return (
@@ -32,21 +33,21 @@ const Home = ({ document, contactDocument }) => {
 							</button>
 						</div>
 						<div className="homepage-social-icons">
-							<a href={document.data.facebook_link.url}>
+							<Link href={document.data.facebook_link.url}>
 								<button aria-label="social-media-link" name="social-media-link">
 									<Facebook />
 								</button>
-							</a>
-							<a href={document.data.twitter_link.url}>
+							</Link>
+							<Link href={document.data.twitter_link.url}>
 								<button aria-label="social-media-link" name="social-media-link">
 									<Twitter />
 								</button>
-							</a>
-							<a href={document.data.instagram_link.url}>
+							</Link>
+							<Link href={document.data.instagram_link.url}>
 								<button aria-label="social-media-link" name="social-media-link">
 									<Instagram />
 								</button>
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>

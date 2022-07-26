@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import ArrowUpHalf from '../icons/ArrowUpHalf'
 import ReactHtmlParser from 'react-html-parser';
+import Link from 'next/link'
+
 
 function Services({ data }) {
 
@@ -25,50 +27,50 @@ function Services({ data }) {
 
                     <div className="services-grid-1">
                         <div className="services-item services-item-1">
-                            <a className="w-full h-full" href="/service/design-planning">
+                            <Link className="w-full h-full" href="/service/design-planning">
                                 <div className="services-item-gradient">
                                     <span> Design & Planning</span>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="services-item services-item-2">
-                            <a className="w-full h-full" href="/service/pools-waterfalls">
+                            <Link className="w-full h-full" href="/service/pools-waterfalls">
                                 <div className="services-item-gradient">
                                     <span> Pools & Waterfalls</span>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="services-item services-item-3">
-                            <a className="w-full h-full" href="/service/outdoor-lighting/">
+                            <Link className="w-full h-full" href="/service/outdoor-lighting/">
                                 <div className="services-item-gradient">
                                     <span> Outdoor Lighting</span>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="services-item services-item-4">
-                            <a className="w-full h-full" href="/service/outdoor-retreats">
+                            <Link className="w-full h-full" href="/service/outdoor-retreats">
                                 <div className="services-item-gradient">
                                     <span> Outdoor Retreats</span>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="services-item services-item-5">
-                            <a className="w-full h-full" href="/service/hardscapes-stone">
+                            <Link className="w-full h-full" href="/service/hardscapes-stone">
                                 <div className="services-item-gradient">
                                     <span> Hardscapes & Stone</span>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                         <div className="services-item services-item-6">
-                            <a className="w-full h-full" href="/service/fire-pits-outdoor-kitchens">
+                            <Link className="w-full h-full" href="/service/fire-pits-outdoor-kitchens">
                                 <div className="services-item-gradient">
                                     <span> Fire Pits & Outdoor Kitchens </span>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     {seeMoreOpen ?
@@ -76,34 +78,34 @@ function Services({ data }) {
 
                             <div className="services-grid-2">
                                 <div className="services-item services-item-7">
-                                    <a className="w-full h-full" href="/service/tree-care-plants">
+                                    <Link className="w-full h-full" href="/service/tree-care-plants">
                                         <div className="services-item-gradient">
                                             <span> Tree Care & Plants</span>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
 
                                 <div className="services-item services-item-8">
-                                    <a className="w-full h-full" href="/service/paths-driveways">
+                                    <Link className="w-full h-full" href="/service/paths-driveways">
                                         <div className="services-item-gradient">
                                             <span> Paths & Driveways</span>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div className="services-item services-item-9">
-                                    <a className="w-full h-full" href="/service/drainage-erosion">
+                                    <Link className="w-full h-full" href="/service/drainage-erosion">
                                         <div className="services-item-gradient">
                                             <span> Drainage & Erosion </span>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
 
                                 <div className="services-item services-item-10">
-                                    <a className="w-full h-full" href="/service/speciality-construction">
+                                    <Link className="w-full h-full" href="/service/speciality-construction">
                                         <div className="services-item-gradient">
                                             <span> Speciality Construction</span>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         ) : ''

@@ -2,6 +2,7 @@ import { Nav } from '@/components/layout';
 import { useRouter } from 'next/router'
 import prismicClient from 'prismic.config'
 import ReactHtmlParser from 'react-html-parser';
+import Link from 'next/link'
 
 
 const Post = ({ document }) => {
@@ -81,12 +82,12 @@ const Post = ({ document }) => {
                             </div>
                             <div className="gallery-photos">
                                 {document.data.photo_gallery.map((item, index) => (
-                                    <a key={index} href={item.photo.url} target="_blank" rel="noopener noreferrer">
+                                    <Link key={index} href={item.photo.url} target="_blank" rel="noopener noreferrer">
                                         <img
                                             src={item.photo.url}
                                             className={`aspect-${item.photo.dimensions.width / item.photo.dimensions.height}`}
                                             alt="" />
-                                    </a>
+                                    </Link>
                                 ))}
                             </div>
                         </div>
