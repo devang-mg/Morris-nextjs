@@ -1,0 +1,90 @@
+.contact-us-section {
+	@apply rounded px-8 md:px-14 py-14 font-sans;
+}
+
+#contact h2 {
+	@apply font-serif text-[24px] md:text-[32px] mt-8;
+	color: #fff;
+}
+
+#contact p {
+	@apply font-sans text-sm md:text-base text-body-light leading-[22.4px] mt-7 w-[240px];
+}
+
+.input-field:first-child {
+	@apply mt-0;
+}
+
+.input-field {
+	@apply mt-4 relative;
+}
+
+.input-field-dropdown {
+	@apply w-full md:w-fit max-w-full;
+}
+
+.input-icon {
+	@apply absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none;
+}
+
+#contact input {
+	@apply text-sm md:text-base bg-white w-full border-none outline-none font-medium;
+	@apply bg-white pl-12 pr-4 py-3 rounded focus:outline-2 focus:outline-green-500;
+}
+
+#contact select {
+	@apply text-sm md:text-base bg-white w-full lg:w-fit max-w-full border-none outline-none font-medium;
+	@apply bg-white pl-11 pr-10 py-3 rounded focus:outline-2 focus:outline-green-500;
+
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+#contact option {
+	@apply text-black;
+}
+
+#contact select::-ms-expand {
+	display: none;
+}
+
+.input-field-dropdown::after {
+	content: '';
+	width: 0;
+	height: 0;
+	border-left: 2.4px solid transparent;
+	border-right: 2.4px solid transparent;
+	border-bottom: 2.4px solid black;
+	@apply absolute right-4 top-[1.15rem];
+
+	border-radius: 2px;
+	border-right: 0;
+	border-top: 0;
+	content: ' ';
+	display: block;
+	height: 0.625em;
+	pointer-events: none;
+	position: absolute;
+	transform: rotate(-45deg);
+	transform-origin: center;
+	width: 0.625em;
+
+	border-color: #4a4a4a;
+}
+
+#contact textarea {
+	@apply text-sm md:text-base border-none outline-none w-full resize-none font-medium;
+	@apply focus:outline-2 focus:outline-green-500;
+	@apply bg-white rounded py-3 px-4 mt-4;
+}
+
+textarea::placeholder,
+#contact input::placeholder {
+	@apply text-body-dark;
+}
+
+#contact .submit-btn {
+	@apply font-sans flex items-center justify-center gap-2 py-3 px-8 mt-4 rounded;
+	@apply font-medium text-sm text-[#414841];
+	background: linear-gradient(90deg, #ffffff 0%, #e4e1de 100%);
+}

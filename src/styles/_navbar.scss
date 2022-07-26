@@ -1,0 +1,56 @@
+nav {
+	@apply flex items-center justify-between py-6 lg:py-12 px-8 md:px-10 lg:px-20;
+	@apply max-w-[1450px] mx-auto;
+}
+
+.nav-service-page {
+	@apply lg:py-8;
+}
+
+.nav-white-bg {
+	@apply bg-white bg-opacity-95;
+}
+
+.nav-buttons {
+	@apply hidden lg:flex items-center gap-[4.5rem] font-serif;
+	@apply text-dark-green;
+}
+
+.nav-buttons button:first-child {
+	@apply font-bold;
+}
+
+.nav-buttons button {
+	@apply py-2 relative block;
+}
+
+nav button {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+	overflow: hidden;
+}
+nav button:before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	right: 100%;
+	bottom: 0;
+	background: #414841;
+	height: 2px;
+	-webkit-transition-property: right;
+	transition-property: right;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+}
+nav button:hover:before,
+nav button:focus:before,
+nav button:active:before {
+	right: 0;
+}

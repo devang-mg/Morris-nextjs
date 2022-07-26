@@ -11,4 +11,26 @@
 
 @tailwind base;
 @tailwind components;
+
+@import 'navbar';
+@import 'homepage';
+@import 'footer';
+@import 'about';
+@import 'services';
+@import 'service';
+@import 'contact';
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	@apply antialiased;
+	background-color: #e4e1de;
+}
+
+.bg-gradient {
+	background: linear-gradient(90deg, #414841 0%, #517345 100%);
+}
+
 @tailwind utilities;

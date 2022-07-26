@@ -1,0 +1,38 @@
+.homepage-main-wrapper {
+	@apply py-6 px-8 md:px-10 lg:px-20 mt-6;
+	@apply bg-center bg-cover bg-no-repeat pb-[300px] w-full;
+	background-image: url('https://cdn.raster.app/u3ejzY27C1ggww68oof0hmezbSg2/z8mscv5NmC?ixlib=js-3.6.0&s=735ceaf7dfc73070cea822c7f958c3e2');
+}
+
+.homepage-container {
+	@apply flex flex-col md:flex-row justify-between;
+	@apply max-w-[1300px] mx-auto;
+}
+
+.homepage-main-wrapper h1 {
+	@apply font-serif text-[30px] md:text-[48px] leading-10 md:leading-[68px];
+	@apply text-dark-green;
+}
+
+.homepage-main-wrapper h2 {
+	@apply text-dark-green font-sans text-[16px] md:text-[24px] font-normal;
+	@apply mt-4 max-w-xs md:max-w-none;
+}
+
+.homepage-main-wrapper button {
+	background: linear-gradient(90deg, #414841 0%, #517345 100%);
+}
+
+.homepage-get-a-estimate {
+	@apply font-sans text-sm mt-8 px-8 text-center py-3 rounded;
+	@apply flex items-center justify-center gap-3 text-white;
+}
+
+.homepage-social-icons {
+	@apply flex md:flex-col gap-3 md:gap-10 mt-8 md:mt-0;
+}
+
+.homepage-social-icons button {
+	@apply w-[30px] h-[30px] md:w-[40px] md:h-[40px] rounded-full;
+	@apply flex items-center justify-center;
+}

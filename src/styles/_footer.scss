@@ -1,0 +1,18 @@
+footer {
+	@apply w-full relative;
+
+	background-color: rgba(217, 212, 208, 1);
+}
+
+.footer-content {
+	@apply flex flex-col justify-center items-center pt-20;
+}
+
+footer p {
+	@apply text-sm md:text-base w-10/12 md:w-full text-body-dark text-center  mt-6;
+}
+
+footer button {
+	@apply font-sans text-sm mt-8 px-6 md:px-8 text-center py-3 rounded;
+	@apply flex items-center justify-center gap-3 text-white;
+}
