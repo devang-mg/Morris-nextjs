@@ -39,7 +39,7 @@
 }
 
 .services-item {
-	@apply w-72 lg:w-full h-[250px] rounded overflow-hidden;
+	@apply w-72 lg:w-full h-[250px] rounded overflow-hidden cursor-pointer;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;

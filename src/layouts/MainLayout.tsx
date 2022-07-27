@@ -26,7 +26,6 @@ const MainLayout = ({ children }: MainLayoutProps) => {
 				<meta name="msapplication-TileColor" content="#ffffff" />
 				<meta name="theme-color" content="#ffffff" />
 				<meta name="image" content="%sveltekit.assets%/og.png" />
-
 			</Head>
 			<main>{children}</main>
 			<Footer />

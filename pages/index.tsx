@@ -15,8 +15,6 @@ import Link from 'next/link'
 const Home = ({ document, contactDocument }) => {
 	return (
 		<>
-
-
 			<Nav />
 			<div className="pb-28">
 				<div className="homepage-main-wrapper">
