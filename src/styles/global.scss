@@ -12,8 +12,6 @@
 @tailwind base;
 @tailwind components;
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 @import 'navbar';
 @import 'homepage';
 @import 'footer';
@@ -21,6 +19,7 @@
 @import 'services';
 @import 'service';
 @import 'contact';
+@import 'fonts';
 
 html {
 	scroll-behavior: smooth;
